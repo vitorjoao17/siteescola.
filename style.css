@@ -33,3 +33,30 @@ padding: 24px 0;}
 
 
     .scania-nome {color:#00ff84;}
+
+    .topico {
+        background-color: #2d9e49;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .topico-lista {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .topico__item{
+         margin:2em 0.5em; 
+         list-style: none;
+        }
+
+    .topico__link {
+        color: #000000 ;
+        padding: 1em;
+        background-color: rgb(127, 197, 255);
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+
+    }
