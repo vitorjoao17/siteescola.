@@ -40,7 +40,8 @@ padding: 24px 0;}
         padding: 1em 0;
     }
 
-    .topico-lista {
+
+    .topico__lista{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -51,7 +52,7 @@ padding: 24px 0;}
          list-style: none;
         }
 
-    .topico__link {
+    .topico__link{
         color: #000000 ;
         padding: 1em;
         background-color: rgb(127, 197, 255);
@@ -60,3 +61,34 @@ padding: 24px 0;}
         font-weight: 700;
 
     }
+
+    .banner { 
+        background-color: #000000 ;
+        color: aliceblue;
+        text-align: center;
+        padding: 2.5em 2em;
+    }
+
+    .banner__titulo {
+        font-size: 18px;
+        font-weight: 700;
+    }
+     banner__texto {
+        font-weight: 500;
+        margin: 1em 0;
+     }
+
+     .banner__pesquisa {
+        background-color: azure;
+        border: 1px solid;
+        color: #000
+        border-radius: 24px; 
+        padding: 1em;
+        width: 100%;
+     }
+
+     .banner__pesquisa: ::placeholder {
+      font-family: var(--fonte-principal);
+      fon-size:
+     }
+     
